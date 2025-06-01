@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgba(139, 0, 0, 0.26);
+}
+
+header h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+header nav div h3 {
+    color: rgb(255, 255, 255) !important;
+}
+
+header nav div h5 {
+    color: white;
+    font-size: 40px;
+}
+
+header div {
+    background-color: rgb(139, 0, 0);
+    font-size: 30px;
+    font-style: oblique;
+}
+.hero{
+    margin-top: 80px;
+}
+.hero img{
+    object-fit: cover;
+    size: 100px;
+}
+.hero div{
+    background-color: rgba(139, 0, 0, 0.162);
+}
+.card-header{
+    color:white;
+}
+.hero div p{
+    color: white;
+}
+.hero div h5 {
+    color: white;
+}
+.hero div a{
+        transition: 1s;
+}
+.btn-primary{
+    background-color: black;
+    color: white;
+    border-color: goldenrod;
+}
+.hero div a:hover {
+    background-color: yellow;
+}
+.card-footer{
+    color: white;
+}
+
+.grid-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item h3 {
+    position: absolute;
+    bottom: 0;
+    background-color: red;
+    width: 100%;
+    color: white;
+}
+
+.grid-galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-3 p{
+    font-size: 30px;
+    font-style: oblique;
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.destacados {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.destacados h2{
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    background-color: rgba(139, 0, 0, 0.26);
+}
+
+.destacados h3 {
+    font-style: oblique;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.destacados div {
+    width: 500px;
+    height: 500px;
+    margin: 30px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.destacados img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.destacados div a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+    background-color: #ff000047;
+    position: absolute;
+    top: auto;
+    transition: 1s;
+}
+
+.destacados a:hover {
+    background-color: yellow;
+}
+
+
+.img-1 {
+    grid-row: span 2;
+}
+
+.img-3 {
+    grid-row: span 2;
+}
+
+.whatsapp img {
+    width: 60px;
+    height: 60px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+
+}
+
+footer {
+    background-color: rgba(139, 0, 0, 0.205);
+    margin:auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer h2{
+    color: white;
+}
+footer div img {
+    width: 40px;
+    height: 40px;
+    margin-left: 50px;
+}
