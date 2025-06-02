@@ -37,8 +37,21 @@ header div {
 }
 .hero img{
     object-fit: cover;
-    size: 100px;
+    size: 10px;
 }
+.imagenes-targetas {
+    width: 30%;
+    max-width: 1000px;
+    min-width: 320px;
+    margin:auto;
+    background-color: rgba(139, 0, 0, 0.162);
+}
+img{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15,15,15);
+}
+
 .hero div{
     background-color: rgba(139, 0, 0, 0.162);
 }
@@ -66,41 +79,7 @@ header div {
     color: white;
 }
 
-.grid-galeria {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 200px 200px;
-    gap: 10px;
-    margin-top: 80px;
-    margin-bottom: 20px;
-}
 
-.grid-item {
-    position: relative;
-}
-
-.grid-item h3 {
-    position: absolute;
-    bottom: 0;
-    background-color: red;
-    width: 100%;
-    color: white;
-}
-
-.grid-galeria img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.img-3 p{
-    font-size: 30px;
-    font-style: oblique;
-    color:white;
-    display: flex;
-    justify-content: space-around;
-    justify-content: center;
-
-}
 
 .destacados {
     display: flex;
@@ -125,15 +104,15 @@ header div {
     width: 500px;
     height: 500px;
     margin: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: auto;
 }
 
 .destacados img {
     width: 100%;
     height: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     object-fit: cover;
@@ -143,26 +122,14 @@ header div {
     text-decoration: none;
     font-size: 50px;
     color: white;
-    padding: 5px;
-    background-color: #ff000047;
-    position: absolute;
-    top: auto;
+    padding: 0px;
+    background-color: rgba(139, 0, 0, 0.162);
     transition: 1s;
 }
 
 .destacados a:hover {
     background-color: yellow;
 }
-
-
-.img-1 {
-    grid-row: span 2;
-}
-
-.img-3 {
-    grid-row: span 2;
-}
-
 .whatsapp img {
     width: 60px;
     height: 60px;
@@ -172,7 +139,7 @@ header div {
     position: fixed;
     bottom: 50px;
     right: 25px;
-
+    z-index: 1;
 }
 
 footer {
