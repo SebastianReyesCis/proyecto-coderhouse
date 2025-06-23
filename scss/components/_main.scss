@@ -1,0 +1,29 @@
+.hero {
+  margin-top: 6%;
+}
+.hero img {
+  object-fit: cover;
+  size: 10px;
+}
+
+img {
+  width: 30%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 5px $color-principal;
+}
+
+footer {
+  background-color: $color-terciario;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 5%;
+}
+footer h2 {
+  color: $color-secundario;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+}

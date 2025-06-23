@@ -28,12 +28,13 @@ header nav div h5 {
 }
 
 header div {
-    background-color: rgb(139, 0, 0);
+    background-color: rgba(139, 0, 0, 0.542);
     font-size: 30px;
     font-style: oblique;
+    font-family: cursive;
 }
 .hero{
-    margin-top: 80px;
+    margin-top: 6%;
 }
 .hero img{
     object-fit: cover;
@@ -51,9 +52,26 @@ img{
     border-radius: 15px;
     box-shadow: 0px 3px 5px rgba(15,15,15);
 }
-
+.card {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.targetas-hero{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.carousel-item{
+    object-fit: cover;
+}
+.carousel-item img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 5%;
+}
 .hero div{
-    background-color: rgba(139, 0, 0, 0.162);
+    background-color: rgba(30, 28, 28, 0.162);
 }
 .card-header{
     color:white;
@@ -73,7 +91,7 @@ img{
     border-color: goldenrod;
 }
 .hero div a:hover {
-    background-color: yellow;
+    background-color:darkred;
 }
 .card-footer{
     color: white;
@@ -147,6 +165,7 @@ footer {
     margin:auto;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 5%;
 }
 footer h2{
     color: white;
