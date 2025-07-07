@@ -35,7 +35,7 @@ h2 {
   margin-top: 15%;
   text-decoration: none;
   background-color: darkred;
-  transition: 1s;
+  transition: 2s;
   padding: 10%;
   width: 30%;
   border-radius: 15px;
@@ -47,7 +47,7 @@ h2 {
 }
 .hero-title a:hover {
   background-color: grey;
-  transform:scale(1.2)
+  transform:rotateX(360deg)
 }
 
 .hero {
