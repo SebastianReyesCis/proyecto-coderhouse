@@ -46,7 +46,8 @@ h2 {
   text-align: center;
 }
 .hero-title a:hover {
-  background-color: yellow;
+  background-color: grey;
+  transform:scale(1.2)
 }
 
 .hero {
@@ -75,10 +76,14 @@ footer {
   text-align: center;
   margin-bottom: 10px;
   margin-top: 5%;
+  transition: 1s;
 }
 
 footer h2 {
   color: white;
+}
+footer img:hover{
+  transform: scale(1.4);
 }
 
 footer img {
