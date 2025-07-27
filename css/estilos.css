@@ -114,6 +114,12 @@ h2 {
         font-size: 17px;
         margin-top: 20%;
     }
+    .targetas-hero h5{
+        font-size: 0px;
+    }
+    p{
+        font-size: 0px;
+    }
 }
 @media (max-width : 400px){
     .targetas-hero h5{
