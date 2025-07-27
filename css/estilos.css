@@ -87,9 +87,53 @@ h2 {
   border-radius: 15px;
   box-shadow: 0px 3px 5px black;
 }
+@media (max-width:1030px){
+    .carrusel {
+        margin-top: 20%;
+    }
+    .hero{
+        margin-top: 20%;
+    }
+    .profesores{
+        margin-top: 40%;
+    }
+    .profesores h2{
+        font-size: 20px;
+        margin-top: 20%;
+    }
+    .profesores p{
+        font-size: 15px;
+    }
+    .hero-text p {
+        margin-top: 20%;
+        font-size: 25px;
+    }
+}
+@media (max-width:700px){
+    .hero-title a{
+        font-size: 17px;
+        margin-top: 20%;
+    }
+}
+@media (max-width : 400px){
+    .targetas-hero h5{
+        font-size: 0px;
+    }
+    p{
+        font-size: 0px;
+    }
+    .iconos-footer img{
+        width: 25px;
+        height: 25px;
+        justify-content: space-around;   
+    }
+}
 .profesores{
   margin-top: 5%;
   text-align: center;
+}
+.profesores p{
+    color: white;
 }
 .hero-title a:hover {
   background-color: grey;
@@ -212,7 +256,6 @@ footer {
   margin-top: 5%;
   transition: 1s;
 }
-
 footer img:hover{
   transform: scale(1.4);
 }
